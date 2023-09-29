@@ -253,7 +253,7 @@ body{
     height: 40vmin;
   }
 }
-@media only screen and (max-width:768px) and (min-width:530px){
+@media only screen and (max-width:768px) and (min-width:600px){
   .image{
     margin-top: 15em;
   }
