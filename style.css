@@ -6,6 +6,9 @@
   box-shadow: border-box;
   background-color: black;
 }
+body{
+  overflow-y: hidden;
+}
 
 /* NavBar---starts */
 .navbar {
