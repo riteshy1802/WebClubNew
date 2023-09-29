@@ -18,6 +18,10 @@ body{
   display: flex;
   align-items: center;
 }
+.img_logo{
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 .ham {
   display: none;
 }
@@ -141,7 +145,7 @@ body{
   }
 }
 
-.image {
+.image{
   /* margin-top: 15vmin; */
 }
 .prodown {
