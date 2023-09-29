@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Linked Css File -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Icon -->
+    <link rel="icon" href="./img/angleBracs.png" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img class="img_logo" src="./img/logobrand2.png" alt="Broken Img" />
+      </div>
+      <div class="hamburger">
+        <img class="ham" src="./img/hamburgerMenu.png" alt="Broken Image" />
+      </div>
+      <ul class="nav-links">
+        <li class="resume_li"><a class="resume" href="https://drive.google.com/file/d/1EjK-qb6OEGxtlWl2tvPNVAt7874DBHsY/view?usp=sharing">Resume</a></li>
+        <li><a href="https://github.com/riteshy1802" target="blank"><i class="bx bxl-github" id="git"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ritesh-yadav-2a5a03289/" target="blank"><i class="bx bxl-linkedin-square" id="lin"></i></a></li>
+      </ul>
+      <img class="closeBtn" src="./img/closeMenu.png" alt="Broken Img">
+    </nav>
+    <!-- First Section -->
+    <section class="head">
+      <div class="content">
+        <div class="text-myself">
+          <div class="text">
+            <h1>I make <span>playful</span><br />Experiences</h1>
+          </div>
+          <div class="myself">
+            <h3>Ritesh Yadav/Student</h3>
+          </div>
+        </div>
+        <div class="image">
+          <img class="img1" src="./img/purpleCoder.jpg" alt="Broken Img" />
+        </div>
+      </div>
+      <div class="prodown">
+        <div class="pro"><h4>Projects</h4></div>
+        <div class="down1">
+          <i class='bx bxs-chevron-down' id="down"></i>
+        </div>
+      </div>
+    </section>
+    <script>
+      const ham = document.querySelector(".ham");
+      const navbar = document.querySelector(".navbar");
+      const closeBtn = document.querySelector(".closeBtn");
+
+      ham.addEventListener("click", () => {
+        navbar.style.top = "0";
+        ham.style.display = "none";
+      });
+
+      closeBtn.addEventListener("click", () => {
+        navbar.className = "navbar";
+        ham.style.display = "block";
+        navbar.style.top = "-100%";
+      });
+    </script>
+  </body>
+</html>
