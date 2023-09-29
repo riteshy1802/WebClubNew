@@ -142,7 +142,7 @@ body{
 }
 
 .image {
-  margin-top: 15vmin;
+  /* margin-top: 15vmin; */
 }
 .prodown {
   display: flex;
