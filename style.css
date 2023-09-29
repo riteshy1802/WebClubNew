@@ -7,7 +7,7 @@
   background-color: black;
 }
 body{
-  overflow-y:none;
+  overflow-y:hidden;
 }
 /* NavBar---starts */
 .navbar {
@@ -253,8 +253,8 @@ body{
     height: 40vmin;
   }
 }
-@media only screen and (max-width:768px) and (min-width:690px){
-  /* .image{
-    margin-top: 8em;
-  } */
+@media only screen and (max-width:768px) and (min-width:530px){
+  .image{
+    margin-top: 15em;
+  }
 }
