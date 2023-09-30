@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-shadow: border-box;
-  background-color: black;
+  /* background-color: black; */
 }
 body{
   overflow-y:hidden;
@@ -231,9 +231,6 @@ body{
     flex-direction: column-reverse;
     justify-content: center;
   }
-  /* .prodown{
-    margin-top:0em;
-  } */
   .pro{
     font-size: 4vmin;
   }
@@ -253,8 +250,11 @@ body{
     height: 40vmin;
   }
 }
-@media only screen and (max-width:768px) and (min-width:600px){
+@media only screen and (max-width:768px) and (min-width:690px){
   .image{
     margin-top: 5em;
+  }
+  .content{
+    height: auto;
   }
 }
